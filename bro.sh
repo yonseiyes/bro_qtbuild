@@ -78,8 +78,8 @@ function bro_update() {
 }
 
 function bro_conf() {
-	mkdir ~/.Bitradio
-	echo "~/.Bitradio/Bitradio.conf"
+	mkdir /root/.Bitradio
+	echo "/root/.Bitradio/Bitradio.conf"
 }
 
 COMMAND=$1
