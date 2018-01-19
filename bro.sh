@@ -79,6 +79,7 @@ function bro_update() {
 }
 
 function bro_conf() {
+	mkdir ~/.Bitradio
 	echo "~/.Bitradio/Bitradio.conf"
 }
 
