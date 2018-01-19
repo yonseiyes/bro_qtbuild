@@ -55,6 +55,7 @@ function bro_install() {
 		pushd ./Bitradio/src
 			sudo make -f makefile.unix # Headless
 			sudo cp Bitradiod /usr/local/bin
+			mkdir ~/.Bitradio
 		popd
 	popd
 	echo "$(tput setaf 1)[INSTALL] BRO Complete! $(tput sgr0)"		
